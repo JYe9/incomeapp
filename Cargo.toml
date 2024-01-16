@@ -12,3 +12,9 @@ slint = "1.0"
 
 [build-dependencies]
 slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "Income Divider"
+identifier = "io.github.jye9.incomeapp"
+description = "Diving up income into tax, owner, profit, and opex amounts."
+icon = ["./icon.png", "./icon@2x.png"]
